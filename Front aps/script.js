@@ -191,7 +191,6 @@ function clean() {
 }
 
 document.getElementById("insidePopupData").addEventListener('click', submit);
-document.getElementById("insidePopupData").addEventListener('click', getdata);
 document.getElementById("close-modal-dataInput").addEventListener('click', clean);
 
 /*
