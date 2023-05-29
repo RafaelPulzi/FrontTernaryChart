@@ -173,7 +173,7 @@ function submit(event) {
     })
     .then(function (res) {
       console.log(res);
-      // Handle the response here
+      getData();
     })
     .catch(function (error) {
       console.log(error);
